@@ -1,4 +1,4 @@
-# edgar-tools
+# edgar.tools
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-edgar-tools is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://edgar.tools/
+edgar.tools is an MCP server and web platform for SEC EDGAR filings. Analysts, advisors and developers can ask AI assistants about a company and receive answers directly from the latest filing, with links to the public filing pages. The service offers full‑text search since 2001, XBRL financials, insider trades, 13F holdings, and webhook notifications. Pricing includes a free tier and paid professional and analyst plans.
+
+**Areas:** Finance · AI · SEC · Data · MCP
+
+## edgar.tools on APIs.io
+
+Everything profiled for edgar.tools is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/edgar-tools/](https://apis.io/providers/edgar-tools/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Edgar Tools API](https://apis.io/apis/edgar-tools/edgar-tools-api-2/) — SEC EDGAR filings search and data API
+- [edgar.tools API](https://apis.io/apis/edgar-tools/edgar-tools-api/) — edgar.tools API as documented publicly: 21 operations. Contract generated from the documentation by API Evangelist (2026-11-06); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Edgar Tools Webhooks](https://apis.io/asyncapis/edgar-tools/edgar-tools-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1AdvisersCrdResponse](https://apis.io/schemas/edgar-tools/edgar-tools-get-v1-advisers-crd-response/)
+- [GetV1CompaniesCikFilingsResponse](https://apis.io/schemas/edgar-tools/edgar-tools-get-v1-companies-cik-filings-response/)
+- [GetV1CompaniesIdentifierDisclosuresSearchResponse](https://apis.io/schemas/edgar-tools/edgar-tools-get-v1-companies-identifier-disclosures-search-response/)
+- [GetV1FilingsCikAccessionnumberResponse](https://apis.io/schemas/edgar-tools/edgar-tools-get-v1-filings-cik-accessionnumber-response/)
+- [GetV1FilingsFindResponse](https://apis.io/schemas/edgar-tools/edgar-tools-get-v1-filings-find-response/)
+- [GetV1SearchFullTextResponse](https://apis.io/schemas/edgar-tools/edgar-tools-get-v1-search-full-text-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Edgar Tools Context](https://apis.io/jsonld/edgar-tools/edgar-tools-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [edgar.tools API Rules](https://apis.io/rules/edgar-tools/edgar-tools-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Edgar Tools Authentication](https://apis.io/security/edgar-tools/edgar-tools-authentication/)
+- [Edgar Tools Domain Security](https://apis.io/security/edgar-tools/edgar-tools-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Edgar Tools Plans Pricing](https://apis.io/plans/edgar-tools/edgar-tools-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://edgar.tools/)
+- [Documentation](https://app.edgar.tools/docs)
+- [Getting started](https://app.edgar.tools/docs/quickstart/api)
+- [Pricing](https://app.edgar.tools/pricing)
+- [Sign up](https://app.edgar.tools/signup)
+- [Support](https://app.edgar.tools/support)
+- [Changelog](https://app.edgar.tools/docs/changelog)
+- [Blog](https://app.edgar.tools/blog)
+- [Terms of service](https://www.edgar.tools/terms)
+- [Privacy policy](https://www.edgar.tools/privacy)
+
+## API Evangelist rating
+
+**Kin Score 60.1** — strong · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 62.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 41.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 26.7** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/edgar-tools/](https://apis.io/providers/edgar-tools/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for edgar.tools: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/edgar-tools/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
